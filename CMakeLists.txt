@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 3.10)
 project(Luogu-Problems)
 
-# ÉèÖÃC±ê×¼
+# è®¾ç½®Cæ ‡å‡†
 set(CMAKE_C_STANDARD 99)
 
-# Ö¸¶¨±àÒëÆ÷Ñ¡Ïî£¨¿ÉÑ¡£©
+# æŒ‡å®šç¼–è¯‘å™¨é€‰é¡¹ï¼ˆå¯é€‰ï¼‰
 add_compile_options(-Wall -Wextra -pedantic)
 
-# ÎªÃ¿¸ö³ÌĞòÌí¼ÓÒ»¸ö¿ÉÖ´ĞĞÎÄ¼ş
+# ä¸ºæ¯ä¸ªç¨‹åºæ·»åŠ ä¸€ä¸ªå¯æ‰§è¡Œæ–‡ä»¶
 add_executable(P1000 Main/P1000.c)
 add_executable(P1001 Main/P1001.c)
 add_executable(P1035 Main/P1035.c)
@@ -22,5 +22,5 @@ add_executable(P1634 Main/P1634.c)
 
 add_executable(AT_abc001_1 AtCoder/AT_abc001_1.c)
 
-# Èç¹ûĞèÒªÁ´½Óµ½¿â£¬Ê¹ÓÃtarget_link_libraries(¿ÉÖ´ĞĞÎÄ¼şÃû ¿âÃû)
-# ÀıÈç£ºtarget_link_libraries(P1000 m) # Á´½ÓÊıÑ§¿â
+# å¦‚æœéœ€è¦é“¾æ¥åˆ°åº“ï¼Œä½¿ç”¨target_link_libraries(å¯æ‰§è¡Œæ–‡ä»¶å åº“å)
+# ä¾‹å¦‚ï¼štarget_link_libraries(P1000 m) # é“¾æ¥æ•°å­¦åº“
